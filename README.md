@@ -1,4 +1,18 @@
 # Static Website for Heroku
+How to run
+----------
+* Clone the repository
+
+* Install the dependencies
+```
+$ npm install
+```
+* Run the development server:
+```
+$ npm run dev
+```
+
+Once the server is running, you can visit `http://localhost:8080/`
 ### DEPLOYING TO HEROKU
 This app is set up for deployment to Heroku!
 
