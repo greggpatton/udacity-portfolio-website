@@ -1,13 +1,11 @@
 {
   "name": "static-website-heroku",
   "version": "1.0.0",
-  "description": "UDACITY Movie Trailer website project using React + NodeJS app that can be deployed to Heroku",
+  "description": "Static website for Heroku",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.config.js",
     "dev": "webpack-dev-server --hot --inline --devtool inline-source-map",
-    "start": "npm run build && npm run start-prod",
-    "start-prod": "better-npm-run start-prod"
+    "start": "better-npm-run start-prod"
   },
   "betterScripts": {
     "start-prod": {
@@ -21,10 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "better-npm-run": "0.0.15",
-    "express": "^4.15.2",
-    "webpack": "^2.5.1"
+    "express": "^4.15.2"
   },
   "devDependencies": {
+    "webpack": "^2.5.1",
     "webpack-dev-middleware": "^1.10.2",
     "webpack-dev-server": "^2.4.5",
     "webpack-hot-middleware": "^2.18.0"

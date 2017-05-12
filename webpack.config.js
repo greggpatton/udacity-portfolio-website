@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   entry: [
-    './src/placeholder.txt'
+    './src/webpack-entry.txt'
   ],
   output: {
     path: path.join(__dirname, '/dist'),
