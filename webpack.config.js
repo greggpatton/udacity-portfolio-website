@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   entry: [
-    './src/empty'
+    './src/placeholder.txt'
   ],
   output: {
     path: path.join(__dirname, '/dist'),
