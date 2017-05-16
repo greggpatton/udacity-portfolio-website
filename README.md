@@ -1,4 +1,4 @@
-# Static Website for Heroku
+# Udacity Portfolio Website
 How to run
 ----------
 * Clone the repository

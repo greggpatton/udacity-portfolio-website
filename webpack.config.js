@@ -2,7 +2,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: [
-    './src/webpack-entry.txt'
+    './webpack-entry.txt'
   ],
   devServer: {
     contentBase: './public',

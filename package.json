@@ -1,7 +1,7 @@
 {
-  "name": "static-website-heroku",
+  "name": "udacity-portfolio-website",
   "version": "1.0.0",
-  "description": "Static website for Heroku",
+  "description": "Static website for Udacity 'Build a Portfolio Site' project.",
   "main": "server.js",
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --devtool inline-source-map",
