@@ -5,7 +5,7 @@ module.exports = {
     './src/webpack-entry.txt'
   ],
   devServer: {
-    contentBase: './dist',
+    contentBase: './public',
     hot: true
   },
   plugins: [
